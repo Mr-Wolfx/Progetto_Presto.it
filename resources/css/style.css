@@ -1,0 +1,287 @@
+.img-bg{
+background-image: url(/public/img/4-full.jpg);
+height: 110vh;
+background-position: bottom;
+background-size: cover;
+}
+.img-ill{
+background-image: url(/public/img/illustration.png);
+height: 100vh;
+background-position: bottom;
+background-size: cover;
+}
+
+.img-preview{
+height: 300px;
+width: 300px;
+background-repeat: no-repeat ;
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+body{
+    background: linear-gradient(to top,#00cd5c, #00bea8);
+}
+
+:root {
+--shadow-color: #c2511d;
+--shadow-color-light: #a33d0e;
+--shadow-color1: #8c8c8c;
+--shadow-color-light1: white;
+}
+
+.navbar{
+
+z-index: 2;
+width: 100%;
+position: fixed;
+background: rgba(38, 220, 255, 0) !important;
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.47) !important;
+}
+
+.btn-detail{
+border: solid white 1px;
+}
+
+.freccia {
+position: absolute;
+bottom: 20px;
+left: 48%;
+color: #2B9DF4;
+}
+.linea {
+position: absolute;
+height: 10px;
+left: 0px;
+background-color: #000000ab;
+}
+
+.card-glow{
+background: rgba(37, 188, 218, 0) !important;
+backdrop-filter: blur(10px) !important;
+-webkit-backdrop-filter: blur(9.2px) !important;
+}
+.card-glow2{
+background: rgba(38, 220, 255, 0) !important;
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+}
+.card-glow3{
+background: rgba(0, 0, 0, 0.36) !important;
+backdrop-filter: blur(2px) !important;
+-webkit-backdrop-filter: blur(2px) !important;
+}
+.card-glow4{
+background: rgba(0, 0, 0, 0.272) !important;
+backdrop-filter: blur(100px) !important;
+-webkit-backdrop-filter: blur(100px) !important;
+}
+.card-footer{
+    background: #0000006d;
+}
+
+.shift{
+    text-transform: uppercase;
+}
+
+.presto-logo{
+    font-size: 100px;
+}
+
+.profilo1{
+    height: 35px;
+    width: 35px;
+    background: linear-gradient(to top,#00cd5c, #00bea8) !important;
+    border-radius: 50%;
+    border: #ffffff solid 1px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+}
+.profilo2{
+    height: 35px;
+    width: 35px;
+    background: linear-gradient(to top,#ff0000, #ada700) !important;
+    border-radius: 50%;
+    border: #ffffff solid 1px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+}
+.profilo3{
+    height: 35px;
+    width: 35px;
+    background: linear-gradient(to top,#000acd, #00ff84) !important;
+    border-radius: 50%;
+    border: #ffffff solid 1px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+}
+.profilo4{
+    height: 35px;
+    width: 35px;
+    background: linear-gradient(to top,#210064, #330130) !important;
+    border-radius: 50%;
+    border: #ffffff solid 1px;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+
+}
+
+
+
+
+.bgtitolo{
+padding: 20px 0 20px 0;
+width: 50%;
+border-radius: 50px;
+border: #ffffff solid ;
+}
+
+@media only screen and (max-width: 1600px) {
+.bgtitolo{
+padding: 10px 0 10px 0;
+width: 80%;
+border-radius: 50px;
+border: #ffffff solid ;
+}
+.titolo2{
+font-weight: 500;
+color: rgb(255, 255, 255) !important;
+animation: neon2 3s infinite;
+font-size: 25px;
+}
+}
+
+.titolo{
+font-size: 30px;
+font-weight: 500;
+color: #ffffff !important;
+animation: neon2 3s infinite;
+}
+.titolo2{
+font-weight: 500;
+color: rgb(255, 255, 255) !important;
+animation: neon2 3s infinite;
+}
+
+
+.img-preview{
+width: 200px;
+height: 200px;
+}
+
+@keyframes neon {
+0% {
+text-shadow: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255,
+255, 255, 0),rgba(255, 255, 255, 0), rgb(0, 0, 0)), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px
+var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color),
+0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+}
+10% {
+text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px
+var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color),
+0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+}
+20% {
+text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px
+var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color),
+0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+}
+30% {
+text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px
+var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color),
+0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+}
+40% {
+text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px
+var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color),
+0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+}
+50% {
+text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px
+var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 30px var(--shadow-color), 0 0 80px var(--shadow-color),
+0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+}
+100% {
+text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px
+var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color),
+0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+}
+}
+@keyframes neon2 {
+0% {
+text-shadow: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255,
+255, 255, 0),rgba(255, 255, 255, 0), rgb(0, 0, 0)), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px
+var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+0 0 1px var(--shadow-color-light1), 0 0 5px var(--shadow-color-light1), 0 0 10px var(--shadow-color-light1),
+0 0 15px var(--shadow-color1), 0 0 20px var(--shadow-color1), 0 0 25px var(--shadow-color1), 0 0 35px
+var(--shadow-color1), 0 0 50px var(--shadow-color1), 0 0 100px var(--shadow-color1);
+}
+10% {
+text-shadow: -1px -1px 1px var(--shadow-color-light1), -1px 1px 1px var(--shadow-color-light1), 1px -1px 1px
+var(--shadow-color-light1), 1px 1px 1px var(--shadow-color-light1),
+0 0 1px var(--shadow-color-light1), 0 0 5px var(--shadow-color-light1), 0 0 10px var(--shadow-color-light1),
+0 0 15px var(--shadow-color1), 0 0 20px var(--shadow-color1), 0 0 25px var(--shadow-color1), 0 0 35px
+var(--shadow-color1), 0 0 50px var(--shadow-color1), 0 0 100px var(--shadow-color1);
+}
+20% {
+text-shadow: -1px -1px 1px var(--shadow-color-light1), -1px 1px 1px var(--shadow-color-light1), 1px -1px 1px
+var(--shadow-color-light1), 1px 1px 1px var(--shadow-color-light1),
+0 0 1px var(--shadow-color-light1), 0 0 5px var(--shadow-color-light1), 0 0 10px var(--shadow-color-light1),
+0 0 15px var(--shadow-color1), 0 0 20px var(--shadow-color1), 0 0 25px var(--shadow-color1), 0 0 35px
+var(--shadow-color1), 0 0 50px var(--shadow-color1), 0 0 100px var(--shadow-color1);
+}
+30% {
+text-shadow: -1px -1px 1px var(--shadow-color-light1), -1px 1px 1px var(--shadow-color-light1), 1px -1px 1px
+var(--shadow-color-light1), 1px 1px 1px var(--shadow-color-light1),
+0 0 1px var(--shadow-color-light1), 0 0 5px var(--shadow-color-light1), 0 0 10px var(--shadow-color-light1),
+0 0 15px var(--shadow-color1), 0 0 20px var(--shadow-color1), 0 0 25px var(--shadow-color1), 0 0 35px
+var(--shadow-color1), 0 0 50px var(--shadow-color1), 0 0 100px var(--shadow-color1);
+}
+40% {
+text-shadow: -1px -1px 1px var(--shadow-color-light1), -1px 1px 1px var(--shadow-color-light1), 1px -1px 1px
+var(--shadow-color-light1), 1px 1px 1px var(--shadow-color-light1),
+0 0 1px var(--shadow-color-light1), 0 0 5px var(--shadow-color-light1), 0 0 10px var(--shadow-color-light1),
+0 0 15px var(--shadow-color1), 0 0 20px var(--shadow-color1), 0 0 25px var(--shadow-color1), 0 0 35px
+var(--shadow-color1), 0 0 50px var(--shadow-color1), 0 0 100px var(--shadow-color1);
+}
+50% {
+text-shadow: -1px -1px 1px var(--shadow-color-light1), -1px 1px 1px var(--shadow-color-light1), 1px -1px 1px
+var(--shadow-color-light1), 1px 1px 1px var(--shadow-color-light1),
+0 0 2px var(--shadow-color-light1), 0 0 7px var(--shadow-color-light1), 0 0 12px var(--shadow-color-light1),
+0 0 20px var(--shadow-color1), 0 0 25px var(--shadow-color1), 0 0 30px var(--shadow-color1), 0 0 40px
+var(--shadow-color1), 0 0 55px var(--shadow-color1), 0 0 105px var(--shadow-color1);
+}
+100% {
+text-shadow: -1px -1px 1px var(--shadow-color-light1), -1px 1px 1px var(--shadow-color-light1), 1px -1px 1px
+var(--shadow-color-light1), 1px 1px 1px var(--shadow-color-light1),
+0 0 1px var(--shadow-color-light1), 0 0 5px var(--shadow-color-light1), 0 0 10px var(--shadow-color-light1),
+0 0 15px var(--shadow-color1), 0 0 20px var(--shadow-color1), 0 0 25px var(--shadow-color1), 0 0 35px
+var(--shadow-color1), 0 0 50px var(--shadow-color1), 0 0 100px var(--shadow-color1);
+}
+}
+
+
+
+
+
